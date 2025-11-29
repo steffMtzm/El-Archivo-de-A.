@@ -1,0 +1,97 @@
+/* Fondo general */
+body {
+    margin: 0;
+    padding: 0;
+    background: #0d0d0d;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Contenedor principal */
+.container {
+    max-width: 450px;
+    margin: 60px auto;
+    padding: 30px;
+    background: #1a1a1a;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+}
+
+/* Título */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+}
+
+/* Grupo de inputs */
+.input-group {
+    margin-bottom: 18px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Labels */
+label {
+    margin-bottom: 8px;
+    font-size: 15px;
+    color: #e6e6e6;
+}
+
+/* Inputs y textarea */
+input,
+textarea {
+    padding: 12px;
+    font-size: 14px;
+    border: 1px solid #444;
+    background: #262626;
+    color: white;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+input:focus,
+textarea:focus {
+    border-color: #6d6d6d;
+    outline: none;
+}
+
+/* Botón */
+button {
+    width: 100%;
+    padding: 12px;
+    background: #333;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #555;
+}
+
+/* Mensajes de error */
+.error {
+    color: #430101;
+    font-size: 13px;
+    height: 15px;
+}
+
+/* Mensaje de éxito */
+.exito {
+    margin-top: 15px;
+    color: #350000;
+    text-align: center;
+    font-size: 15px;
+}
+
+/* Diseño responsivo */
+@media (max-width: 480px) {
+    .container {
+        margin: 25px;
+        padding: 20px;
+    }
+}
